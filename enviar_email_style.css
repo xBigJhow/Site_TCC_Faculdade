@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo do seu site */
+    color: #343a40; /* Cor do texto do seu site */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Cor do fundo do container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #dc3545; /* Cor do título */
+}
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+a {
+    color: #007bff; /* Cor do link */
+    text-decoration: none;
+    font-weight: bold;
+}

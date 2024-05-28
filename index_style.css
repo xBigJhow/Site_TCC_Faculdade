@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #464BFA;
+}
+
+.strong {
+    color: #2d34fc;
+    font-weight: bold;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #464BFA;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #d1e3ff;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #d1e3ff;
+}
+
+.text-colored {
+    color: #464BFA;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: #464BFA;
+    color: #fff;
+    
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #464BFA;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#title{
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.login-form {
+    text-align: center; 
+}
+
+.form-input {
+    font-family: 'Roboto', sans-serif;
+}
+
+#submit-btn {
+    background-color: #f0f1ff; 
+    color: #464BFA; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+#submit-btn:hover {
+    background-color: #464BFA;
+    color: #fff;
+}
+
+#register-btn {
+    background-color: #f0f1ff; 
+    color: #464BFA; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    padding: 5px 10px;
+}
+
+#register-btn:hover {
+    background-color: #d1e3ff;
+}
+
+
+#login-btn {
+    background-color: #f0f1ff; 
+    color: #464BFA; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+#login-btn:hover {
+    background-color: #d1e3ff;
+}
+
+#logout-btn {
+    background-color: #f0f1ff; 
+    color: #464BFA; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    padding: 5px 10px;
+}
+
+#logout-btn:hover {
+    background-color: #d1e3ff;
+}
+
+#login-btn {
+    margin-right: 10px;
+}
+#logout-btn {
+background-color: #f0f1ff; 
+color: #464BFA; 
+border: none;
+border-radius: 5px;
+cursor: pointer; 
+padding: 1px 2px;
+}
+
+#logout-btn:hover {
+background-color: #d1e3ff;
+}
