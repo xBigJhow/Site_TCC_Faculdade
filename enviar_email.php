@@ -36,7 +36,7 @@
                 $email->addContent("text/html", $emailContentType1);
             }
             
-            $sendgrid = new \SendGrid('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');
+            $sendgrid = new \SendGrid('YOUR_SECRET_KEY_HERE');
             try {
                 $response = $sendgrid->send($email); 
                 echo "Seu e-mail foi enviado com sucesso!";

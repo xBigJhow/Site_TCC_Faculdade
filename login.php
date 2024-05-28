@@ -3,8 +3,8 @@ session_start(); // Inicia a sessão no início do arquivo
 
 // Conectar ao banco de dados
 $servername = "localhost";
-$username = "root";
-$password = "root";
+$username = "";
+$password = "";
 $dbname = "cadastro";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
